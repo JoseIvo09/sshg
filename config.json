@@ -1,6 +1,7 @@
 {
   "Version": "1.8.0",
-  "ReleaseNotes": "SSHG VIP",
+  "ReleaseNotes": "SSH G VIP",
+  "UrlUpdate": "https://raw.githubusercontent.com/JoseIvo09/sshg/refs/heads/main/config.json/",
   "UrlTermos": "https://",
   "CheckUser": "",
   "Udp": [
