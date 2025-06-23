@@ -1,0 +1,340 @@
+{
+  "Version": "1.8.0",
+  "ReleaseNotes": "SSHG VIP",
+  "UrlTermos": "https://",
+  "CheckUser": "",
+  "Udp": [
+    {
+      "Porta": "7300"
+    }
+  ],
+  "Servers": [
+    {
+      "Name": "Hackkcah",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "bra.hackkcah.net",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "251200",
+      "PASS": "251200"
+    },
+    {
+      "Name": "Frontcloud2",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "[rotate\u003dfrontcloud.cloud]",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "fenix2",
+      "PASS": "@Junior4"
+    },
+    {
+      "Name": "Frontcloud3",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "[rotate\u003dfrontcloud.cloud]",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "fenix2",
+      "PASS": "@Juni944"
+    },
+    {
+      "Name": "Frontcloud4",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "[rotate\u003dfrontcloud.cloud]",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "fenix2",
+      "PASS": "@Juni944"
+    },
+    {
+      "Name": "Aplicativofree01",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "br.instavininet.store",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "aplicativofree01",
+      "PASS": "aplicative01"
+    },
+    {
+      "Name": "B4VPN",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "b4.lsvpn.me",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "Litee",
+      "PASS": "2940"
+    },
+    {
+      "Name": "FREE1",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free1.downloadblackgames.tech",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "hacr",
+      "PASS": "12w3"
+    },
+    {
+      "Name": "FREE2",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free2.downloadblackgames.tech",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "haer",
+      "PASS": "12w3"
+    },
+    {
+      "Name": "FREE3",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free3.downloadblackgames.tech",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "hacr",
+      "PASS": "12w3"
+    },
+    {
+      "Name": "SSHPROJECT1",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free1.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    },
+    {
+      "Name": "SSHPROJECT2",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free2.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    },
+    {
+      "Name": "SSHPROJECT3",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free3.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    },
+    {
+      "Name": "SSHPROJECT4",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free4.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    },
+    {
+      "Name": "SSHPROJECT5",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free5.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    },
+    {
+      "Name": "SSHPROJECT6",
+      "TYPE": "PREMIUM",
+      "FLAG": "br.png",
+      "ServerIP": "free6.sshtproject.com",
+      "CheckUser": "",
+      "ServerPort": "80",
+      "SSLPort": "443",
+      "USER": "ssht",
+      "PASS": "ssht"
+    }
+  ],
+  "Networks": [
+    {
+      "Name": "VIVO PRE",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]#[delay_split] ACL / HTTP/1.1[lf]Host:[random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]WKM: cdn37[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO PRE2",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]#[delay_split] ACL / HTTP/1.1[lf]Host:[random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket[lf]WKM: cdn37[lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "8080",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO1",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO2",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO4",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO5",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO6",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO7",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO8",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: [random\u003dvivoproxy.gdmnet.pro][lf]Connection: Upgrade[lf]Upgrade: Websocket [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "VIVO9",
+      "FLAG": "vivo",
+      "Payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "[app_host]",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "CLARO1",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "dns.web.whatsapp.com",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO2",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "whatsapp.com",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO3",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "c.whatsapp.net",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO4",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.twitter.com",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+    },
+    {
+      "Name": "CLARO5",
+      "FLAG": "claro",
+      "Payload": "",
+      "SNI": "m.waze.com",
+      "TlsIP": "[app_host]",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Ssl"
+    }
+  ]
+}
