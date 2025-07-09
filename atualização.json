@@ -1,0 +1,559 @@
+[
+    {
+        "name": "VIVO 25",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO ALLS",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "\"ACL wss://meganauta.newserve.shop HTTP/1.1[crlf]Host: vivcdn.zerod.mobi[crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf]scottsshd[crlf][crlf]\"\n\"GET / HTTP/1.1[crlf]Host: recarga-api.vivo.com.br[crlf]Upgrade: websocket[crlf]Connection: keep-alive[crlf][crlf]\"",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "us2.ssl-tun.me",
+            "port": 8080
+        },
+        "server": {
+            "host": "us2.ssl-tun.me,us2.ssl-tun.me,us2.ssl-tun.me,us2.ssl-tun.me",
+            "port": 22
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO 2",
+        "description": "",
+        "mode": "SSH_DIRECT",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO ALLS",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET http://vivcdn.zerod.mobi/ HTTP/1.1[crlf]Host: vivcdn.zerod.mobi[crlf]X-Forwarded-For: vivcdn.zerod.mobi[crlf]Connection: Keep-Alive[crlf]Upgrade: websocket[crlf][crlf][delay_split]CONNECT [host_port] [protocol][crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "",
+        "proxy": {
+            "host": null,
+            "port": null
+        },
+        "server": {
+            "host": "br.clickhost.xyz",
+            "port": 22
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "✅ VIVO REGIÕES 11 [GCP]",
+        "description": "Pré Pago & Planos",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO ALLS",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "POST /connect/domainreliability/upload HTTP/1.1 [lf]Host: [app_host][split][crlf]Upgrade: Websocket;Access-Control-Request-Method: POST;Access-Control-Allow-Origin: *;Save-Data: no;Connection: keep-alive;Keep-Alive: timeout=43200, max=71200;Cache-control: public max-age=16777216 immutable;Content-Length: 16777216;Upgrade-Insecure-Requests: 1/n/n[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "1.1.1.1",
+            "dns2": "2606:4700:4700::1001"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "[app_host]",
+            "port": 80
+        },
+        "server": {
+            "host": "br.clickhost.xyz",
+            "port": 8880
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO PRE - SSL 🔐",
+        "description": "SNI SSL",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO SSH PROXY",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: recarga-api.vivo.com.br[crlf]Upgrade: websocket[crlf]Connection: keep-alive[crlf][crlf]",
+            "sni": "recarga-api.vivo.com.br"
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "1.1.1.1",
+            "dns2": "2606:4700:4700::1001"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "[app_host]",
+            "port": 80
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 443
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO SSH PROXY",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO SSH PROXY",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "[delay_split][lf]ACL / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "recarga.portal.vivo.com.br",
+            "port": 8080
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 80
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO CDN - PROXY 🌐",
+        "description": "Proxy",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 2,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO SSH PROXY",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET /ms/250766_Siprocal_Positivo_Cursinho_mai25_bestiver/ HTTP/1.1[crlf]Host: vivcdn.zerod.mobi[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "1.1.1.1",
+            "dns2": "2606:4700:4700::1001"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "vivcdn.zerod.mobi",
+            "port": 8080
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 80
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO APP 💡 HTTPS",
+        "description": "SNI SSL",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 3,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO SSH PROXY",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET /web HTTP/1.1[crlf]Host: app.vivo.com.br[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": "app.vivo.com.br"
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "1.1.1.1",
+            "dns2": "2606:4700:4700::1001"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "[app_host]",
+            "port": 80
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 443
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO JS STATIC ✅",
+        "description": "Proxy",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 4,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "VIVO SSH PROXY",
+            "color": "#804E25FF",
+            "sorter": 1
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET /js/start.js?channel=portal-web-mobile-b2c&businesskey=0 HTTP/1.1[crlf]Host: pro-aura-front-vivo.azurewebsites.net[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf][crlf]",
+            "sni": "pro-aura-front-vivo.azurewebsites.net"
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "1.1.1.1",
+            "dns2": "2606:4700:4700::1001"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "pro-aura-front-vivo.azurewebsites.net",
+            "port": 8080
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 80
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "VIVO 25 (COPY)",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "TIM",
+            "color": "#806CD0FF",
+            "sorter": 3
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "GET / HTTP/1.1[crlf]Host: premium.noruegues.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: premium.noruegues.shop[crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]#[split]ACL / HTTP/1.1nHost: HTTP-DNS:1.1.1.1;1.0.0.1;8.8.8.8nUpgrade: Websocketnn[lf]#[split]TRACE / Keep-Alive  [lf]@noruegues[lf]#[delay_split]UPDATE / [host_port] [protocol][lf][lf]#[delay_split]LOCK / [host_port] [protocol][lf][lf]#[delay_split]ACL / [host_port] [protocol][lf][lf]#[delay_split]BDELETE / [host_port] [protocol][lf][lf]#ACL / HTTP/1.1[lf]Host: premium.noruegues.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[lf]Host: premium.noruegues.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[lf]Host: premium.noruegues.shop[lf]Upgrade: Websocket[lf][split][lf]#[delay_split][lf][rotate=ACL;PATCH;GET;CONNECT] / HTTP/1.1[crlf]Host: vivo.com.br/para-voce/produtos-e-servicos/para-o-celular/pre-pago/vale-bonus-pre[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]#[delay_split][lf]ACL / HTTP/1.1[crlf]Host: vivo.com.br/para-voce/produtos-e-servicos/para-o-celular/pre-pago/vale-bonus-pre[crlf]Upgrade: Upgrade[crlf]Connection: [crlf][crlf]#ACL / HTTP/1.1[lf]Host: premium.noruegues.shop[lf]Upgrade: Websocket[lf][split][lf]#ACL / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: Websocket[lf][split][lf]#HTTP/ 1[lf]Host: portalrecarga.vivo.com.br;Tim.com.br;xvideos.com;blaze-1.com;glink.net.br-CDN-GEThttp://ACL-CDN-VIVO.COM.BR;GOOGLE.COM\\\\n\\\\n\\\\n \\\\n#[delay_split]ACL /Set-Cookie: sessionID=fbafa6258966f49f252b404ab9e5c219; path=/admin; domain=revive.vivointernetgratis.com.br; secure; HttpOnly; SameSite=strict HTTP/1.1][lf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: xnxx.com[lf]Upgrade: websocket[lf]#[delay_split]ACL HTTP/1.1[crlf]Host: www.google.com.br[crlf][crlf]#[split]ACL / HTTP/1.1nHost: HTTP-DNS:1.1.1.1;1.0.0.1;8.8.8.8nUpgrade: Websocketnn#[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]#[delay_split][lf]GET / HTTP/1.1[lf]Host: vivo.com.br[lf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "104.18.99.70,104.18.28.182,104.18.33.113,104.19.239.25,104.19.240.93,104.19.241.93,104.17.64.225",
+            "port": 80
+        },
+        "server": {
+            "host": "us2.ssl-tun.me,us2.ssl-tun.me,us2.ssl-tun.me,us2.ssl-tun.me",
+            "port": 22
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "Vivo Rotate",
+        "description": "",
+        "mode": "SSH_PROXY",
+        "tls_version": "TLSv1.2",
+        "sorter": 1,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": null
+        },
+        "category": {
+            "name": "TIM",
+            "color": "#806CD0FF",
+            "sorter": 3
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": "ACL / HTTP/1.9[lf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[lf]Upgrade: Websocket[lf]User-Agent: Mobile Safari/9 OPR/9 [lf][split][lf]#PROPATCH/ HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]Upgrade: Websocket[crlf][crlf]#ACL / HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]Upgrade: Websocket[crlf][split][crlf]#GET / HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]Upgrade: Websocket[crlf][crlf]#GET / HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]Upgrade: Websocket[crlf][crlf]#PATCH https://recarga.portal.vivo.com.br/prepago/nocredit/ HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]X-Online-Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]User-Agent: [ua][crlf]Referer: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf][crlf]#CONNECT https://recarga.portal.vivo.com.br/prepago/nocredit/ [protocol][crlf][split]PATCH https://recarga.portal.vivo.com.br/prepago/nocredit/ HTTP/1.1[crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]X-Online-Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]User-Agent: [ua][crlf]Referer: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf][crlf]#[method] https://recarga.portal.vivo.com.br/prepago/nocredit/ [protocol][crlf][split]PATCH https://recarga.portal.vivo.com.br/prepago/nocredit/ [protocol][crlf]Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]X-Online-Host: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf]User-Agent: [ua][crlf]Referer: https://recarga.portal.vivo.com.br/prepago/nocredit/[crlf][crlf]",
+            "sni": null
+        },
+        "config_v2ray": null,
+        "dns_server": {
+            "dns1": "2606:4700:4700::1001",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://i.ibb.co/pj4p1v83/vivoico.png",
+        "proxy": {
+            "host": "[app_host]",
+            "port": 80
+        },
+        "server": {
+            "host": "us2.ssl-tun.me",
+            "port": 22
+        },
+        "udp_ports": [
+            7313,
+            7390,
+            7385,
+            7376
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "⚡⚡ V2RAY ⬇⬇",
+        "description": "",
+        "mode": "V2RAY",
+        "tls_version": "TLSv1.2",
+        "sorter": 20,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": "65365d1d-f1c9-4391-9148-6160efc28512"
+        },
+        "category": {
+            "name": "06/2025",
+            "color": "#00000080",
+            "sorter": 4
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": null,
+            "sni": null
+        },
+        "config_v2ray": "vless://65365d1d-f1c9-4391-9148-6160efc28512@recarga-api.vivo.com.br:80?path=%2Fws%2F&security=none&encryption=none&host=br.clickhost.xyz&type=ws",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://raw.githubusercontent.com/TelksBr/SSH_T_PROJECT_VPN/page/null/IC/VIVO_P.png",
+        "proxy": {
+            "host": null,
+            "port": null
+        },
+        "server": {
+            "host": null,
+            "port": null
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "⚡⚡ V2RAY 2 ⬇⬇",
+        "description": "#VIVO+EASY+BUG🟣🟣💎🏆»M7ví4Ý",
+        "mode": "V2RAY",
+        "tls_version": "TLSv1.2",
+        "sorter": 20,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": "65365d1d-f1c9-4391-9148-6160efc28512"
+        },
+        "category": {
+            "name": "06/2025",
+            "color": "#00000080",
+            "sorter": 4
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": null,
+            "sni": null
+        },
+        "config_v2ray": "vless://65365d1d-f1c9-4391-9148-6160efc28512@recarga-api.vivo.com.br:2052?path=/AW5u61Vj/&security=none&encryption=none&host=brasil10.shop&type=ws",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://raw.githubusercontent.com/TelksBr/SSH_T_PROJECT_VPN/page/null/IC/VIVO_P.png",
+        "proxy": {
+            "host": null,
+            "port": null
+        },
+        "server": {
+            "host": null,
+            "port": null
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    },
+    {
+        "name": "⚡⚡ V2RAY SSL⬇⬇",
+        "description": "",
+        "mode": "V2RAY",
+        "tls_version": "TLSv1.2",
+        "sorter": 20,
+        "status": "ACTIVE",
+        "auth": {
+            "username": null,
+            "password": null,
+            "v2ray_uuid": "65365d1d-f1c9-4391-9148-6160efc28512"
+        },
+        "category": {
+            "name": "06/2025",
+            "color": "#00000080",
+            "sorter": 4
+        },
+        "config_openvpn": null,
+        "config_payload": {
+            "payload": null,
+            "sni": null
+        },
+        "config_v2ray": "vless://65365d1d-f1c9-4391-9148-6160efc28512@recarga-api.vivo.com.br:443?path=%2Fws%2F&security=tls&encryption=none&alpn=&host=br.clickhost.xyz&fp=random&type=ws&sni=recarga-api.vivo.com.br",
+        "dns_server": {
+            "dns1": "8.8.8.8",
+            "dns2": "8.8.4.4"
+        },
+        "icon": "https://raw.githubusercontent.com/TelksBr/SSH_T_PROJECT_VPN/page/null/IC/VIVO_P.png",
+        "proxy": {
+            "host": null,
+            "port": null
+        },
+        "server": {
+            "host": null,
+            "port": null
+        },
+        "udp_ports": [
+            7300
+        ],
+        "url_check_user": ""
+    }
+]
